@@ -14,4 +14,7 @@ requiere descargas!** Solo abre tu navegador web.
 ## Secuencia de lección
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
-
+- **Descripción**: [insterta texto].
+- **Enlace**: [enclace]
+- **Consejos clave**: 
+- **Empieza a programar**:
