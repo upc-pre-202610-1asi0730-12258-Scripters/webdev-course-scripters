@@ -15,7 +15,7 @@ requiere descargas!** Solo abre tu navegador web.
 
 ### Lección 1: ¿Qué es el desarrollo web?
 - **Descripción**: El desarrollo web es la disciplina encargada de crear y mantener sitios y aplicaciones que funcionan en Internet. A través de tecnologías como HTML, CSS y JavaScript, y mediante componentes como el frontend y el backend, permite que los usuarios accedan a información y servicios en línea. Los sitios web pueden ser estáticos o dinámicos y desempeñan un papel fundamental en ámbitos como la educación, la comunicación, el comercio y muchas otras actividades de la vida cotidiana.
-- **Enlace**: [Ver la lección] (https://youtu.be/4GTIaaS01jM)
+- **Enlace**: [Ver la lección] (https://youtu.be/k-CRvpr58mE)
 - **Consejos clave**: El desarrollo web esta confrmado por 2 componenets princiaples Frontend y Bakcend, Sitios web = Contenido (HTML) + Estilo (CSS) + JavaSript(Dinamismo) y  ¿Como funciona un sitio web en segundos con internet? https://youtu.be/rw41W8crZ_Y?si=1dTvbBUlo1u2JLXY.
 - **Empieza a programar**: [Open CodePen](https://codepen.io/pen/?template=your-starter) **¡No necesitas registrarte!**
 
