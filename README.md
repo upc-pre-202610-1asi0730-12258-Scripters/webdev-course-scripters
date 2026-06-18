@@ -840,3 +840,10 @@ Después de esta lección, se recomienda seguir aprendiendo:
 * JavaScript para agregar interactividad.
 * GitHub Pages para publicar páginas web.
 * Validadores online para revisar errores en HTML y CSS.
+
+# Desafío en Kahoot
+
+Participa en el siguiente desafío:
+
+👉 [Acceder al Kahoot](https://kahoot.it/challenge/05579283?challenge-id=b1007c76-83d3-4990-84bb-a073d33aaeea_1781785106411)
+
