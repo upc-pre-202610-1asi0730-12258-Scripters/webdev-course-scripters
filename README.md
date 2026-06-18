@@ -13,30 +13,26 @@ requiere descargas!** Solo abre tu navegador web.
 
 ## Secuencia de lección
 
-### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
+### Lección 1: ¿Qué es el desarrollo web?
 - **Descripción**: El desarrollo web es la disciplina encargada de crear y mantener sitios y aplicaciones que funcionan en Internet. A través de tecnologías como HTML, CSS y JavaScript, y mediante componentes como el frontend y el backend, permite que los usuarios accedan a información y servicios en línea. Los sitios web pueden ser estáticos o dinámicos y desempeñan un papel fundamental en ámbitos como la educación, la comunicación, el comercio y muchas otras actividades de la vida cotidiana.
 - **Enlace**: [Ver la lección] (https://youtu.be/4GTIaaS01jM)
 - **Consejos clave**: El desarrollo web esta confrmado por 2 componenets princiaples Frontend y Bakcend, Sitios web = Contenido (HTML) + Estilo (CSS) + JavaSript(Dinamismo) y  ¿Como funciona un sitio web en segundos con internet? https://youtu.be/rw41W8crZ_Y?si=1dTvbBUlo1u2JLXY.
 - **Empieza a programar**: [Open CodePen](https://codepen.io/pen/?template=your-starter) **¡No necesitas registrarte!**
 
 
-### Lección 4: Introducción a CSS (12 minutos)
+### Lección 4: Introducción a CSS 
 
 - **Descripción**: Aprende a personalizar una página web utilizando CSS. Aplicarás colores, fuentes, espacios e imágenes para transformar una página HTML sencilla en una página visualmente atractiva.
 - **Objetivo de aprendizaje**: Al finalizar la lección, podrás aplicar estilos básicos con CSS utilizando selectores, propiedades y valores.
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link4)
 - **Herramienta utilizada**: CodePen (no requiere instalación).
-- **Práctica guiada**: [Abrir el CodePen utilizado en clase]([https://codepen.io/your-lesson4-demo](https://codepen.io/editor/Lopescamos/pen/019eda53-c38f-7ee7-81eb-96475ebdd7e1))
+- **Práctica guiada**: [Abrir el CodePen utilizado en clase](https://codepen.io/editor/Lopescamos/pen/019eda53-c38f-7ee7-81eb-96475ebdd7e1)
 
 ---
 
 #### Antes de comenzar
 
-En esta práctica utilizaremos el HTML creado en las lecciones anteriores. En CodePen:
-
-- El contenido debe ir en el panel **HTML**.
-- Los estilos deben escribirse en el panel **CSS**.
-- La vista previa mostrará los cambios automáticamente.
+En esta práctica utilizaremos el HTML creado en las lecciones anteriores. En CodePen, el contenido debe ir en el panel **HTML**, los estilos en el panel **CSS**, y la vista previa mostrará los cambios automáticamente.
 
 ---
 
@@ -245,8 +241,9 @@ Personaliza la página creada en clase aplicando los conceptos aprendidos sobre 
 
 > **Consejo:** Experimenta con diferentes colores y estilos. No existe una única respuesta correcta.
 
-👉 **Comienza aquí:** [CodePen para practicar](https://codepen.io/your-lesson4-practice)
+👉 **Comienza aquí:** [CodePen para practicar](https://codepen.io/Lopescamos/pen/NPddyam)
 
+> Este CodePen incluye únicamente el HTML base para que puedas crear tu propia hoja de estilos.
 > Este CodePen incluye únicamente el HTML base para que puedas crear tu propia hoja de estilos.
 
 👉 [CodePen para practicar](https://codepen.io/Lopescamos/pen/NPddyam)
