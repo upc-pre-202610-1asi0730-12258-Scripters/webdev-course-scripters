@@ -19,6 +19,55 @@ requiere descargas!** Solo abre tu navegador web.
 - **Consejos clave**: El desarrollo web esta confrmado por 2 componenets princiaples Frontend y Bakcend, Sitios web = Contenido (HTML) + Estilo (CSS) + JavaSript(Dinamismo) y  ¿Como funciona un sitio web en segundos con internet? https://youtu.be/rw41W8crZ_Y?si=1dTvbBUlo1u2JLXY.
 - **Empieza a programar**: [Open CodePen](https://codepen.io/pen/?template=your-starter) **¡No necesitas registrarte!**
 
+### Lección 2: Introducción a HTML (10 minutos)
+- **Descripción**: Explora las etiquetas HTML básicas y crea tu primera página.
+- **Enlace**: [Ver la lección](https://youtu.be/dgWzhnhYKIo)
+- **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`.
+- **Práctica**: [Clic para programar](https://codepen.io/your-pen-id) 🚀 **¡No necesitas registrarte!**
+
+**Código de ejemplo:**
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi primera página</title>
+  </head>
+
+  <body>
+    <h1>Mi primera página</h1>
+    <hr>
+    <br>
+
+    <!--Oye! no te olvides que la <p> es para agregar parrafo -->
+    <p>Buenas noches, <u>esta es mi <i>primera</i> página</u>, es un gusto que todos se encuentren por aquí año</p>
+  </body>
+</html>
+```
+
+### Lección 3: Añadir más elementos HTML (8 minutos)
+- **Descripción**: Agrega listas, imágenes y enlaces para que tu página sea interactiva.
+- **Enlace**: [Ver la lección](https://youtu.be/NLQQN2IEWHI)
+- **Consejos clave**: Usa las etiquetas `<ul>`, `<img>`, `<a>`.
+- **Práctica**: [Clic para programar](https://codepen.io/your-pen-id) **¡Comienza al instante!**
+
+**Código de ejemplo:**
+
+```html
+<ul>
+  <li>Computación</li>
+  <li>Matemáticas</li>
+  <li>Aritmética</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1777026059641-53bcbd04f194?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE3OTE0MzJ8&ixlib=rb-4.1.0&q=85" alt="Paisaje" width="300" height="100">
+
+<h2>Aprendizaje</h2>
+<p>Se aprendió listas y src images en el curso</p>
+<p>Dale click a <a href="https://google.com">Google</a> para ir al buscador</p>
+```
+
 
 ### Lección 4: Introducción a CSS 
 
