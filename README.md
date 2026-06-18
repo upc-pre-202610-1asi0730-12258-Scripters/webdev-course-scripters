@@ -24,7 +24,7 @@ requiere descargas!** Solo abre tu navegador web.
 
 - **Descripción**: Aprende a personalizar una página web utilizando CSS. Aplicarás colores, fuentes, espacios e imágenes para transformar una página HTML sencilla en una página visualmente atractiva.
 - **Objetivo de aprendizaje**: Al finalizar la lección, podrás aplicar estilos básicos con CSS utilizando selectores, propiedades y valores.
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link4)
+- **Enlace**: [Ver la lección](https://youtu.be/jAgK3RY7Ggs)
 - **Herramienta utilizada**: CodePen (no requiere instalación).
 - **Práctica guiada**: [Abrir el CodePen utilizado en clase](https://codepen.io/editor/Lopescamos/pen/019eda53-c38f-7ee7-81eb-96475ebdd7e1)
 
