@@ -233,13 +233,22 @@ a:hover {
 
 #### Reto práctico
 
-Modifica tu hoja de estilos para:
+Personaliza la página creada en clase aplicando los conceptos aprendidos sobre CSS.
 
-- Cambiar el color del título.
-- Cambiar el color de fondo.
-- Utilizar una fuente diferente.
-- Cambiar el color del enlace.
+**Instrucciones:**
 
-👉 [CodePen para practicar](https://codepen.io/your-lesson4-practice)
+1. Cambia el color del título principal.
+2. Modifica el color de fondo de la página.
+3. Prueba una fuente diferente para todo el contenido.
+4. Personaliza el enlace cambiando su color.
+5. Agrega al menos una mejora adicional, como redondear la imagen o centrar el contenido.
+
+> **Consejo:** Experimenta con diferentes colores y estilos. No existe una única respuesta correcta.
+
+👉 **Comienza aquí:** [CodePen para practicar](https://codepen.io/your-lesson4-practice)
+
+> Este CodePen incluye únicamente el HTML base para que puedas crear tu propia hoja de estilos.
+
+👉 [CodePen para practicar](https://codepen.io/Lopescamos/pen/NPddyam)
 
 > Este enlace contiene únicamente el código HTML para que puedas crear tu propia hoja de estilos. 
