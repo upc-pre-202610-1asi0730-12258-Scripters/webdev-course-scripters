@@ -298,3 +298,136 @@ Personaliza la página creada en clase aplicando los conceptos aprendidos sobre 
 👉 [CodePen para practicar](https://codepen.io/Lopescamos/pen/NPddyam)
 
 > Este enlace contiene únicamente el código HTML para que puedas crear tu propia hoja de estilos. 
+
+### Lección 5: Crear una página web sencilla (15 minutos)
+
+**Descripción**: Combinar HTML y CSS para crear una página de perfil personal utilizando el editor en línea CodePen.
+
+**Enlace**: [Ver la lección](https://youtu.be/6P3AbvcYdgo)
+
+**Consejos clave**: Aplicar estilos estructurados, centrar cajas contenedoras, realizar pruebas de sintaxis para corregir errores comunes y comprender la utilidad de los paneles de la interfaz de desarrollo.
+
+**Proyecto Final**: [Crea tu Perfil en CodePen](https://codepen.io/pen/) ¡Guarda y comparte!
+
+---
+
+#### 📋 Guía de Desarrollo para la Lección 5
+
+En esta sesión práctica de 15 minutos, los estudiantes integrarán los conceptos de maquetación y diseño para construir una tarjeta de presentación digital interactiva. 
+
+> **Nota sobre el entorno de desarrollo**: La interfaz de CodePen presenta tres paneles principales de edición: **HTML**, **CSS** y **JS** (JavaScript). Para efectos de esta lección introductoria enfocada en fundamentos visuales, el panel de **JS** permanecerá cerrado, ya que la lógica y el comportamiento dinámico corresponden a etapas posteriores del aprendizaje. Toda la estructura y apariencia se resolverán exclusivamente con los dos primeros paneles.
+
+---
+
+#### 1. Código de Estructuración (Panel HTML)
+
+Los estudiantes deben escribir el siguiente bloque de código en el panel de HTML para definir los componentes, textos, imágenes y listas que formarán parte de la página de perfil:
+
+```html
+<div class="tarjeta-perfil">
+  
+  <img src="[https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150](https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150)" alt="Foto de perfil de Ana" class="foto-perfil">
+  
+  <h1>¡Hola, soy Ana! 👋</h1>
+  <p class="subtitulo">Estudiante de Secundaria & Futura Programadora</p>
+  
+  <hr>
+  
+  <h3>Sobre mí</h3>
+  <p>Me encantan los videojuegos, dibujar y aprender a crear páginas web. ¡Bienvenido a mi espacio digital!</p>
+  
+  <h3>Mis Pasatiempos Favoritos</h3>
+  <ul>
+    <li>🎮 Jugar videojuegos de rol con amigos</li>
+    <li>🎨 Dibujo digital en tableta</li>
+    <li>📚 Leer novelas de ciencia ficción</li>
+  </ul>
+  
+  <a href="#" class="boton-contacto">¡Salúdame!</a>
+  
+</div>
+```
+#### 1. Código de diseño (Panel CSS)
+
+Los estudiantes deben escribir el siguiente bloque de código en el panel de CSS para definir los estilos de la página de perfil:
+```css
+/* Configuración del fondo de la pantalla completa */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilo de la tarjeta contenedora */
+.tarjeta-perfil {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+}
+
+/* Diseño circular para la imagen */
+.foto-perfil {
+  border-radius: 50%;
+  border: 4px solid #4a90e2;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Tipografía y espaciados */
+h1 {
+  color: #333333;
+  font-size: 24px;
+  margin: 15px 0 5px 0;
+}
+
+.subtitulo {
+  color: #777777;
+  font-size: 14px;
+  margin: 0 0 15px 0;
+}
+
+h3 {
+  color: #4a90e2;
+  text-align: left;
+  font-size: 16px;
+  margin: 20px 0 5px 0;
+}
+
+p, ul {
+  color: #555555;
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Estilo interactivo del botón */
+.boton-contacto {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* Efecto visual al pasar el cursor por encima */
+.boton-contacto:hover {
+  background-color: #357abd;
+}
+```
