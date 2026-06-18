@@ -431,3 +431,412 @@ ul {
   background-color: #357abd;
 }
 ```
+### Lección 6: Consejos, errores comunes y próximos pasos
+
+* **Descripción**: En esta lección se revisa una página de perfil digital creada con HTML y CSS. El objetivo es aprender a detectar errores comunes, aplicar pequeñas mejoras al código y conocer los próximos pasos para seguir aprendiendo desarrollo web.
+* **Enlace**: [Ver la lección](https://youtu.be/MENc1TAPrkw)
+* **Herramienta utilizada**: CodePen.
+* **CodePen de la lección**: [Abrir práctica y código final](https://codepen.io/dosullz/pen/QNxdzd)
+* **Consejos clave**: Revisa que las clases coincidan entre HTML y CSS, usa correctamente el punto `.` en los selectores de clase, no olvides cerrar etiquetas, usa el atributo `alt` en imágenes y prueba la página en diferentes tamaños de pantalla.
+
+---
+
+#### Código base utilizado
+
+Este código sirve como punto de partida para revisar y mejorar una página de perfil digital.
+
+> En CodePen, colocar únicamente el contenido del `<body>` en el panel **HTML**.
+
+```html
+<div class="tarjeta-perfil">
+    
+  <img src="https://avatar.iran.liara.run/public/60" alt="Foto de perfil" class="foto-perfil">
+    
+  <h1>Hola, soy [Tu Nombre]</h1>
+  <p class="subtitulo">Estudiante de Secundaria y Aprendiz Web</p>
+    
+  <hr>
+
+  <h3>Mis intereses:</h3>
+
+  <ul class="lista-intereses">
+    <li>Desarrollo de videojuegos y tecnología</li>
+    <li>Práctica de deportes y actividades al aire libre</li>
+    <li>Lectura y diseño de páginas web</li>
+  </ul>
+
+  <a href="https://github.com" target="_blank" class="boton-enlace">Ver mi GitHub</a>
+
+</div>
+```
+
+```css
+/* Configuración del fondo general de la página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor principal en forma de tarjeta */
+.tarjeta-perfil {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  max-width: 350px;
+  text-align: center;
+  border: 3px solid #6c5ce7;
+}
+
+/* Estilo para redondear la imagen de perfil */
+.foto-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #6c5ce7;
+  background-color: #f5f5f5;
+}
+
+/* Estilos de texto */
+h1 {
+  color: #2d3436;
+  font-size: 24px;
+  margin: 15px 0 5px 0;
+}
+
+.subtitulo {
+  color: #636e72;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #dfe6e9;
+  margin: 20px 0;
+}
+
+h3 {
+  color: #6c5ce7;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Lista de intereses sin viñetas predeterminadas */
+.lista-intereses {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.lista-intereses li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #2d3436;
+}
+
+/* Botón interactivo inferior */
+.boton-enlace {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6c5ce7;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Cambio de color interactivo al pasar el cursor */
+.boton-enlace:hover {
+  background-color: #5352ed;
+}
+```
+
+---
+
+#### Mejoras aplicadas en la lección
+
+En esta lección se aplican mejoras pequeñas para que la página sea más clara, adaptable y fácil de revisar.
+
+**1. Personalizar el nombre**
+
+```html
+<!-- Antes -->
+<h1>Hola, soy [Tu Nombre]</h1>
+
+<!-- Después -->
+<h1>Hola, soy Camila</h1>
+```
+
+**2. Mejorar el texto alternativo de la imagen**
+
+```html
+<!-- Antes -->
+<img src="https://avatar.iran.liara.run/public/60" alt="Foto de perfil" class="foto-perfil">
+
+<!-- Después -->
+<img src="https://avatar.iran.liara.run/public/60" alt="Avatar de mi perfil digital" class="foto-perfil">
+```
+
+**3. Hacer la tarjeta más adaptable**
+
+```css
+.tarjeta-perfil {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+  border: 3px solid #6c5ce7;
+}
+```
+
+**4. Cambiar `height` por `min-height`**
+
+```css
+body {
+  min-height: 100vh;
+}
+```
+
+**5. Mejorar el efecto del botón**
+
+```css
+.boton-enlace {
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.boton-enlace:hover {
+  background-color: #5352ed;
+  transform: translateY(-3px);
+}
+```
+
+---
+
+#### Errores comunes revisados
+
+**1. Clase diferente en HTML y CSS**
+
+```html
+<!-- HTML -->
+<div class="tarjeta-perfil">
+  <h1>Hola, soy Camila</h1>
+</div>
+```
+
+```css
+/* Incorrecto */
+.tarjeta {
+  background-color: white;
+}
+
+/* Correcto */
+.tarjeta-perfil {
+  background-color: white;
+}
+```
+
+**2. Olvidar el punto en una clase CSS**
+
+```css
+/* Incorrecto */
+boton-enlace {
+  background-color: #6c5ce7;
+}
+
+/* Correcto */
+.boton-enlace {
+  background-color: #6c5ce7;
+}
+```
+
+**3. No cerrar una etiqueta HTML**
+
+```html
+<!-- Incorrecto -->
+<h1>Hola, soy Camila
+
+<!-- Correcto -->
+<h1>Hola, soy Camila</h1>
+```
+
+**4. Escribir mal una etiqueta**
+
+```html
+<!-- Incorrecto -->
+<tilte>Mi Perfil Digital</tilte>
+
+<!-- Correcto -->
+<title>Mi Perfil Digital</title>
+```
+
+**5. Quitar el atributo `alt` de una imagen**
+
+```html
+<!-- No recomendado -->
+<img src="https://avatar.iran.liara.run/public/60" class="foto-perfil">
+
+<!-- Recomendado -->
+<img src="https://avatar.iran.liara.run/public/60" alt="Avatar de mi perfil digital" class="foto-perfil">
+```
+
+---
+
+#### Código final mejorado
+
+> En CodePen, colocar únicamente este contenido en el panel **HTML**.
+
+```html
+<div class="tarjeta-perfil">
+    
+  <img 
+    src="https://avatar.iran.liara.run/public/60" 
+    alt="Avatar de mi perfil digital" 
+    class="foto-perfil"
+  >
+    
+  <h1>Hola, soy Camila</h1>
+
+  <p class="subtitulo">Estudiante de Secundaria y Aprendiz Web</p>
+    
+  <hr>
+
+  <h3>Mis intereses:</h3>
+
+  <ul class="lista-intereses">
+    <li>Crear páginas web personales</li>
+    <li>Aprender diseño con CSS</li>
+    <li>Compartir mis proyectos en GitHub</li>
+  </ul>
+
+  <a href="https://github.com" target="_blank" class="boton-enlace">
+    Ver mi GitHub
+  </a>
+
+</div>
+```
+
+```css
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.tarjeta-perfil {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+  border: 3px solid #6c5ce7;
+}
+
+.foto-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #6c5ce7;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #2d3436;
+  font-size: 24px;
+  margin: 15px 0 5px 0;
+}
+
+.subtitulo {
+  color: #636e72;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #dfe6e9;
+  margin: 20px 0;
+}
+
+h3 {
+  color: #6c5ce7;
+  font-size: 16px;
+  text-align: left;
+}
+
+.lista-intereses {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.lista-intereses li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #2d3436;
+}
+
+.boton-enlace {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6c5ce7;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.boton-enlace:hover {
+  background-color: #5352ed;
+  transform: translateY(-3px);
+}
+```
+
+---
+
+#### Reto práctico
+
+Personaliza la página **“Mi Perfil Digital”** aplicando las mejoras vistas en la lección.
+
+**Instrucciones:**
+
+1. Cambia el nombre del perfil.
+2. Cambia la imagen o el avatar.
+3. Modifica la lista de intereses.
+4. Cambia al menos un color.
+5. Prueba el efecto `hover` del botón.
+6. Revisa que las clases coincidan entre HTML y CSS.
+7. Verifica que la imagen tenga atributo `alt`.
+8. Prueba cómo se ve la tarjeta en una pantalla pequeña.
+
+---
+
+#### Próximos pasos
+
+Después de esta lección, se recomienda seguir aprendiendo:
+
+* Más propiedades de CSS.
+* Diseño responsive.
+* JavaScript para agregar interactividad.
+* GitHub Pages para publicar páginas web.
+* Validadores online para revisar errores en HTML y CSS.
